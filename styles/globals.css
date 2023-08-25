@@ -3,9 +3,12 @@
 
 /* ======== css variables ========= */
 :root {
-  --primary-color: #7c5dfa;
-  --secondary-color: #1e2139;
-  --body-bg: #141625;
+  /* --primary-color: #7c5dfa; */
+  --primary-color:teal;
+  /* --secondary-color: #1e2139; */
+  --secondary-color: #141414;
+  /* --body-bg: #141625; */
+  --body-bg: #070707;
   --paid-status-bg: #1f2c3f;
   --paid-status-color: #32cf9b;
   --pending-status-bg: rgba(255, 143, 0, 0.06);
@@ -312,7 +315,8 @@ p {
   padding: 12px 20px;
   width: 100%;
   border-radius: 5px;
-  background: var(--secondary-color);
+  /* background: var(--secondary-color); */
+  background: rgb(69, 69, 69);
   color: #fff;
   border: none;
   outline: none;
